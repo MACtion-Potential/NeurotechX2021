@@ -1,0 +1,9 @@
+1. Extract the contents of this .zip to just inside the "eeg-notebooks" folder that was installed together with the eegnb library. The unzipped files are 135 MB (it contains all the videos).
+
+2. In line 12 of conf_para.py and conf_para_test.py, change "museXXXX" to "muse2016" or "muse2" depending on which muse version you have
+
+3. Run the file "00x__videos_run_experiment_test.py". Watch ~ 1 min of the videos that come up. This should take ~ 3 min.
+
+4. At the end of the program it will tell you where the EEG recording, and your answers to the questions were saved. Check to make sure that they were saved properly.
+
+5. Repeat steps 2-3 with the file  "00x__videos_run_experiment.py", to run the actual experiment whenever you have time. It should take ~40 minutes.
